@@ -1,0 +1,39 @@
+package myproj;
+
+
+	
+	class Car{
+		public int Model;
+		public String Color;
+		public String Design;
+		public void  set_Model(int m) {
+			Model = m;
+	}
+	
+	public void set_Color(String c) {
+		Color = c;
+			
+		}
+	public void set_Design(String d) {
+		Design = d;
+	}
+	public void show() {
+		System.out.println(Model);
+		System.out.println(Color);
+		System.out.println(Design);
+		
+	}
+	}
+		
+public class Classobject {	
+	
+
+	public static void main(String[] args) {
+		Car c = new Car();
+		c.set_Model(200);
+		c.set_Color("Black");
+		c.set_Design("Ferrari");
+		c.show();
+		}
+
+}
